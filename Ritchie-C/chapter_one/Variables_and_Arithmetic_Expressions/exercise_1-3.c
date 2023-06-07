@@ -18,9 +18,9 @@ void main()
     /* upper limit */ 
     /* step size */ 
 
+    printf("Fahrenheit-Celsius table\n");
     while (fahr <= upper)
     {
-        printf("\tFahrenheit-Celsius table");
         celsius = (5.0/9.0) * (fahr-32.0); 
         printf("%3.0f %6.1f\n", fahr, celsius); 
         fahr = fahr + step; 
