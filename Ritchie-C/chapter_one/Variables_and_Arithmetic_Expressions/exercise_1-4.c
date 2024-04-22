@@ -2,7 +2,7 @@
 /**
  *A program to print the corresponding Celsius to Fahrenheit table.
  */
-void main()
+int main()
 {
   float fahr, celsius;
   int lower_lim, upper_lim, step;
@@ -19,4 +19,5 @@ void main()
       printf("%3.f℃ %3.2f℉\n", celsius, fahr);
       celsius += step;
     }
+  return (0);
 }

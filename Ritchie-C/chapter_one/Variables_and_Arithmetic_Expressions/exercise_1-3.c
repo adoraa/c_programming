@@ -6,7 +6,7 @@ above the table.
 #include <stdio.h> 
 /* print Fahrenheit-Celsius table 
 for fahr = 0, 20, ... , 300; floating-point version*/ 
-void main() 
+int main() 
 {
     float fahr, celsius; 
     int lower, upper, step; 
@@ -25,4 +25,5 @@ void main()
         printf("%3.0f %6.1f\n", fahr, celsius); 
         fahr = fahr + step; 
     }
+    return (0);
 }
